@@ -1,0 +1,749 @@
+/* Media Queries */
+@media (max-width: 768px) {
+    .media-quary{
+        display: block;
+    }
+    .nav-media{
+        display: none;
+    }
+
+    .nav-logo{
+        position: relative;
+    }
+    .nav-logo::before{
+        content: "";
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 100px;
+        height: 100px; 
+        background-color: rgba(254, 140, 69, 0.2);
+        box-shadow: 0px 0px 100px 120px rgba(254, 140, 69, 0.2);
+        border-radius: 50%;
+        display: none;
+    }
+
+
+    /* navbar details */
+    .nav-bottom{
+        padding: 30px 0;
+    }
+    .responsive-navtext{}
+    .responsive-navtext h1{ 
+        font-size: 3.5rem !important;
+        font-weight: 700;
+    }
+    .responsive-navtext h1 .oneline{
+        display: inline-block;
+        width: 100px !important; 
+        height: 10px !important;
+        margin: 0 10px !important;
+        margin-bottom: 10px !important;
+        line-height: 30px !important;
+    }
+    .responsive-navtext p{
+        font-size: .8rem;
+    }
+    .responsive-navtext button{
+        width: 150px !important;
+    }
+
+    /* navbar child photo */
+    .change-width{
+        width: 300px !important;
+    }
+    .childphotdotted{
+        width: 10px !important;
+        height: 10px !important;
+    }
+    #deffarent{
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+
+
+    /* Romantic Section*/
+    .romantic .romantictextgap{
+        gap: 0 !important;
+    }
+    .romanticimg{
+        width: 310px;
+    }
+    .romantic .romantic-h1{
+        font-size: 24px !important;
+    }
+    .romantic .romantic-p{
+        font-size: .7rem;
+    }
+    .romantic .romantic-p2{
+        font-size: .7rem;
+    }
+    .romantic .romantic-btn{
+        width: 150px;
+        font-size: 12px;
+    }
+
+
+    /* Grid photo */
+    .all-child-photo .allchildphoto{
+        width: 220px !important;
+    }
+
+    /* price section */
+    .cards-div{}
+    .cards-h5{}
+    .cards-p{}
+    .cards-doller{}
+    .cards-btn{}
+
+
+    /* Tesimonials Section  */
+    .choto-align{
+        gap: 10px !important;
+    }
+    .tesim-span{}
+    .tesim-h1{
+        font-size: 22px;
+    }
+    .tesim-p{
+        font-size: .7rem;
+    }
+
+    .choto-img{
+        width: 180px !important;
+    }
+    .choto-img img{
+        width: 30px;
+    }
+    .choto-img span{
+        font-size: 12px;
+    }
+
+    .tiricon{
+        
+        width: 25px !important;
+        height: 25px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .boro-bedi{
+        width: 400px;
+    }
+    .mager-gap{
+        gap: 20px !important;
+    }
+
+
+
+    /* Instagram Feed */
+    .insta-head-parent{
+        width: 87%;
+        margin: auto;
+    }
+
+    .insta-h1{
+        
+        font-size: 24px !important;
+    }
+    .insta-btn{
+            
+            width: 150px !important;
+            font-size: 12px !important;
+    }
+
+    .instagram-top-img{
+        width: 300px !important;
+    }
+    .instagram-img{
+        width: 145px !important;
+    }
+    .insta-gap{
+        gap: 10px !important;
+    }
+
+    .insta-parent{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Question Section */
+
+    .questionresponsive{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .left-details{
+        width: 100% !important;
+    }
+
+
+    /* Footer Section */
+    footer{}
+    .footer-logo img{
+        width: 120px !important;
+    }
+    .footer-nav{}
+    .footer-nav .fn-a{
+        font-size: 12px !important;
+    }
+    .footer-icon{
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 14px !important;
+        line-height: 30px !important;
+    }
+}
+
+
+/* Responsive Mobile */
+@media (max-width: 425px) {
+    .media-quary{
+        display: block;
+    }
+    .nav-media{
+        display: none;
+    }
+
+    .nav-logo{
+        position: relative;
+        cursor: pointer;
+    }
+    .nav-logo img{
+        width: 150px !important;
+    }
+    .mo-parent{
+        
+        gap: 15px !important;
+    }
+  
+    .mo-parent li a{
+        
+        font-size: 14px !important;
+    }
+    .nav-logo::before{
+        content: "";
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 100px;
+        height: 100px; 
+        background-color: rgba(254, 140, 69, 0.2);
+        box-shadow: 0px 0px 100px 120px rgba(254, 140, 69, 0.2);
+        border-radius: 50%;
+        display: none;
+    }
+
+
+    /* navbar details */
+    .nav-full-contain{
+        padding: 20px 10px;
+    }
+    .nav-btn{
+        padding: 5px 10px !important;
+        width: 120px !important;
+        font-size: 14px;
+    }
+    .responsive-navtext{}
+    .responsive-navtext h1{ 
+        font-size: 2rem !important;
+        font-weight: 700;
+    }
+    .responsive-navtext h1 .oneline{
+        display: inline-block;
+        width: 40px !important; 
+        height: 7px !important;
+        margin: 0 5px !important;
+        margin-bottom: 6px !important;
+        line-height: 40px !important;
+    }
+    .responsive-navtext p{
+        font-size: .7rem;
+    }
+    .responsive-navtext button{
+        width: 100px !important;
+        font-size: 12px !important;
+    }
+
+    /* navbar child photo */
+    .change-width{
+        width: 220px !important;
+    }
+    .childphotdotted{
+        width: 10px !important;
+        height: 10px !important;
+    }
+    #deffarent{
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+
+    /* Romantic Section*/
+    .romantic .romantictextgap{
+        gap: 0 !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    .romantic-flex{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .romanticimg{
+        width: 350px;
+    }
+    .romantic .romantic-h1{
+        font-size: 24px !important;
+    }
+    .romantic .romantic-p{
+        font-size: .7rem;
+    }
+    .romantic .romantic-p2{
+        font-size: .7rem;
+    }
+    .romantic .romantic-btn{
+        width: 150px;
+        font-size: 12px;
+    }
+
+
+    /* Grid photo */
+    .childPhoto{}
+    .childPhoto-li{
+        font-size: .7rem !important;
+    }
+    .all-child-photo .allchildphoto{
+        width: 120px !important;
+    }
+
+    /* price section */
+    .cards-parent{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .cards-div{
+        
+    }
+    .cards-h5{}
+    .cards-p{}
+    .cards-doller{}
+    .cards-btn{}
+
+
+    /* Tesimonials Section  */
+    .choto-align{
+        gap: 10px !important;
+    }
+    .tesim-span{}
+    .tesim-h1{
+        font-size: 22px;
+    }
+    .tesim-p{
+        font-size: .7rem;
+    }
+
+    .choto-img{
+        width: 180px !important;
+    }
+    .choto-img img{
+        width: 30px;
+    }
+    .choto-img span{
+        font-size: 12px;
+    }
+
+    .tiricon{
+        
+        width: 25px !important;
+        height: 25px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .boro-bedi{
+        width: 400px;
+    }
+    .testimo-items{
+        align-items: center !important;
+        text-align: center;
+    }
+    .mager-gap{
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 20px !important;
+
+    }
+
+
+
+    /* Instagram Feed */
+    .insta-head-parent{
+        width: 87%;
+        margin: auto;
+    }
+
+    .insta-h1{
+        
+        font-size: 24px !important;
+    }
+    .insta-btn{
+            padding: 7px 0 !important;
+            margin: 0px 0 !important;
+            width: 100px !important;
+            font-size: 12px !important;
+    }
+
+    .instagram-top-img{
+        width: 180px !important;
+    }
+    .instagram-img{
+        width: 87px !important;
+    }
+    .insta-gap{
+        gap: 10px !important;
+    }
+
+    .insta-parent{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Question Section */
+
+    .questionresponsive{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .left-details{
+        width: 100% !important;
+    }
+
+
+    /* Footer Section */
+    footer{
+     margin: 5px 0;
+    }
+    .footer-logo img{
+        width: 100px !important;
+    }
+    .footer-nav{}
+    .footer-nav .fn-a{
+        font-size: 8px !important;
+        display: none;
+    }
+    .footer-icon{
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 14px !important;
+        line-height: 30px !important;
+    }
+}
+/* Responsive Mobile */
+@media (max-width: 320px) {
+    .media-quary{
+        display: block;
+    }
+    .nav-media{
+        display: none;
+    }
+
+    .nav-logo{
+        position: relative;
+        cursor: pointer;
+    }
+    .nav-logo img{
+        width: 150px !important;
+    }
+    .mo-parent{
+        
+        gap: 15px !important;
+    }
+  
+    .mo-parent li a{
+        
+        font-size: 10px !important;
+    }
+    .nav-logo::before{
+        content: "";
+        position: absolute;
+        top: 80px;
+        left: 0px;
+        width: 100px;
+        height: 100px; 
+        background-color: rgba(254, 140, 69, 0.2);
+        box-shadow: 0px 0px 100px 120px rgba(254, 140, 69, 0.2);
+        border-radius: 50%;
+        display: none;
+    }
+
+
+    /* navbar details */
+    .nav-full-contain{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        padding: 20px 10px;
+    }
+    .nav-btn{
+        padding: 5px 10px !important;
+        width: 120px !important;
+        font-size: 10px;
+    }
+    .responsive-navtext{}
+    .responsive-navtext h1{ 
+        font-size: 2.5rem !important;
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    .responsive-navtext h1 .oneline{
+        display: inline-block;
+        width: 40px !important; 
+        height: 7px !important;
+        margin: 0 5px !important;
+        margin-bottom: 10px !important;
+        line-height: 40px !important;
+    }
+    .responsive-navtext p{
+        font-size: .9rem;
+    }
+    .responsive-navtext button{
+        width: 100px !important;
+        font-size: 12px !important;
+    }
+
+    /* navbar child photo */
+    .change-width{
+        width: 290px !important;
+    }
+    .childphotdotted{
+        width: 10px !important;
+        height: 10px !important;
+    }
+    #deffarent{
+        width: 10px !important;
+        height: 10px !important;
+    }
+
+
+    /* Romantic Section*/
+    .romantic .romantictextgap{
+        gap: 0 !important;
+        align-items: center !important;
+        text-align: center;
+    }
+    .romantic-flex{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+    .romanticimg{
+        width: 300px;
+    }
+    .romantic .romantic-h1{
+        font-size: 24px !important;
+    }
+    .romantic .romantic-p{
+        font-size: .7rem;
+    }
+    .romantic .romantic-p2{
+        font-size: .7rem;
+    }
+    .romantic .romantic-btn{
+        width: 150px;
+        font-size: 12px;
+    }
+
+
+    /* Grid photo */
+    .childPhoto{
+        display: flex !important;
+        flex-direction: column !important;
+        gap: 15px !important;
+        align-items: flex-start;
+        
+    }
+    .childPhoto .fs-1{
+        align-self: center;
+    }
+    .childPhoto-li{
+        font-size: 1rem !important;
+        
+    }
+    .all-child-photo .allchildphoto{
+        width: 80px !important;
+    }
+
+    /* price section */
+    .cards-parent{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: 0 10px !important;
+    }
+    .cards-div{
+        margin: 0 10px !important;
+    }
+    .cards-h5{
+        font-size: .8rem !important;
+    }
+    .cards-p{
+        font-style: .5rem !important;
+    }
+    .cards-doller{}
+    .cards-btn{}
+
+
+    /* Tesimonials Section  */
+    .choto-align{
+        gap: 10px !important;
+    }
+    .tesim-span{}
+    .tesim-h1{
+        font-size: 22px;
+    }
+    .tesim-p{
+        font-size: .7rem;
+    }
+
+    .choto-img{
+        width: 180px !important;
+    }
+    .choto-img img{
+        width: 30px;
+    }
+    .choto-img span{
+        font-size: 12px;
+    }
+
+    .tiricon{
+        
+        width: 25px !important;
+        height: 25px !important;
+        font-size: 14px !important;
+        line-height: 20px !important;
+    }
+
+    .boro-bedi{
+        width: 400px;
+    }
+    .testimo-items{
+        align-items: center !important;
+        text-align: center;
+    }
+    .mager-gap{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        gap: 20px !important;
+
+    }
+
+
+
+    /* Instagram Feed */
+    .insta-head-parent{
+        width: 87%;
+        margin: auto;
+    }
+
+    .insta-h1{
+        
+        font-size: 16px !important;
+    }
+    .insta-btn{
+            padding: 5px 0 !important;
+            margin: 0px 0 !important;
+            width: 100px !important;
+            font-size: 12px !important;
+    }
+
+    .instagram-top-img{
+        width: 150px !important;
+    }
+    .instagram-img{
+        width: 72px !important;
+    }
+    .insta-gap{
+        gap: 7px !important;
+    }
+
+    .insta-parent{
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    /* Question Section */
+
+    .questionresponsive{
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .left-details{
+        width: 100% !important;
+    }
+
+
+    /* Footer Section */
+    footer{
+     margin: 5px 0;
+    }
+    .footer-logo img{
+        width: 100px !important;
+    }
+    .footer-nav{}
+    .footer-nav .fn-a{
+        font-size: 8px !important;
+        display: none;
+    }
+    .footer-icon{
+        width: 30px !important;
+        height: 30px !important;
+        font-size: 14px !important;
+        line-height: 30px !important;
+    }
+}
+
+
+/* Responsive Mobile */
+@media screen and (min-width: 426px) and (max-width: 765px) {
+    
+    /* price section */
+    .cards-parent{
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin: 0 10px !important;
+    }
+    .cards-div{
+        margin: 0 10px !important;
+        height: 400px;
+        padding: 0 20px;
+    }
+    .cards-h5{
+        font-size: .8rem !important;
+    }
+    .cards-p{
+        font-style: .5rem !important;
+    }
+    .cards-doller{}
+    .cards-btn{}
+
+
+
+    .mager-gap{
+        display: flex !important;
+        flex-direction: column-reverse !important;
+        gap: 20px !important;
+
+    }
+    .boro-bedi{
+        width: 100% !important;
+    }
+}
