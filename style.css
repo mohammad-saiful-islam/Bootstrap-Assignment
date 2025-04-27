@@ -58,3 +58,38 @@ body{
     display: none;
 }
 
+
+/* grid photo */
+.childPhoto{
+    position: relative;
+}
+
+.childPhoto::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    right: -50px;
+    width: 100px;
+    height: 100px; 
+    background-color: rgba(254, 140, 69, 0.09);
+    box-shadow: 0px 0px 100px 120px rgba(254, 140, 69, 0.09);
+    border-radius: 50%;
+    z-index: -1;
+}
+
+
+/* grid photo */
+#childphoto{
+    position: relative;
+}
+#childphoto::before{
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: -50px;
+    width: 150px;
+    height: 150px; 
+    background-color: rgba(138, 71, 246, 0.2);
+    box-shadow: 0px 0px 100px 120px rgba(138, 71, 246, 0.2);
+    border-radius: 50%;
+}
