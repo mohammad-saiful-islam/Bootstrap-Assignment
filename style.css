@@ -113,3 +113,38 @@ body{
     border-radius: 50%;
     z-index: -1;
 }
+
+/* Question Section */
+#questioneffect{
+    position: relative;
+}
+#questioneffect::before{
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100px;
+    height: 100px; 
+    background-color: rgba(138, 71, 246, 0.1);
+    box-shadow: 0px 0px 100px 120px rgba(138, 71, 246, 0.1);
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
+.nav-btn:hover{
+    background-color: #fa701b;
+    transition: .5s ease;
+}
+
+.hoverEffect:hover{
+    background-color: #8A47F6;
+    color: white;
+    transition: .5s ease;
+    cursor: pointer;
+}
